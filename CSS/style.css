@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    margin: 5px;
+    padding: 3px;
+}
+
+a:hover {
+    background-color: lightgray;
+    transition-delay: .05s;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    background: lightgray;
+    border-radius: 50%;
+    background-image: url(/gambar/gambar3.jpeg);
+    background-size: cover;
+}
+
+
+body {
+    background-color: lightgoldenrodyellow;
+}
+
+#home-page {
+    background-image: url(/gambar/gambar5.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 325px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
